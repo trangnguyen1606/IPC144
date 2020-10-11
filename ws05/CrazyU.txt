@@ -1,0 +1,56 @@
+#include <stdio.h>
+#define SIZE 2
+
+struct Employee{
+  int ID,age;
+  double salary;
+};
+
+int main(void) {
+  int option;
+  int i = 0;
+  struct Employee emp[] ={0};
+
+  printf("---===EMPLOYEE DATA===---\n");
+  do{
+    printf("\n1. Display Employee Information\n");
+    printf("2. Add Employee\n");
+    printf("0. Exit\n");
+    printf("\nPlease select from the above options: ");
+    scanf("%d",&option);
+    
+    switch (option){
+      case 0: 
+        printf("Exiting Employee Data Program. Good Bye!!!\n");
+        break;
+      case 1:
+        printf("\nEMP ID  EMP AGE EMP SALARY\n");
+        printf("======  ======= ==========\n");
+        for (i=0;i < SIZE;i++)
+        {
+          printf("%6d%9d%11.2lf\n",emp[i].ID,emp[i].age,emp[i].salary);
+        }
+        
+      case 2:
+        printf("\nAdding Employee\n");
+        printf("===============\n");
+        if(i>=SIZE)
+        {
+          printf("ERROR!!! Maximum Number of Employees Reached\n");
+        }
+        else
+        {
+          emp[i].ID=printf("Enter Employee ID: ");
+          scanf("%d",&emp[i].ID);
+          emp[i].age = printf("Enter Employee Age: ");
+          scanf("%d",&emp[i].age);
+          emp[i].salary = printf("Enter Employee Salary: ");
+          scanf("%lf",&emp[i].salary);
+          i++;
+        }
+        
+    }
+  }while(option!=0);
+  return 0;
+}
+

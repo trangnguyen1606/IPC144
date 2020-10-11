@@ -1,0 +1,26 @@
+//==============================================
+// Name:           Nguyen Thi Thuy Trang
+// Student Number: 131104192
+// Email:          tnguyen-thi-thuy@myseneca.ca
+// Section:        NLL
+// Workshop:       3 (at-home)
+//==============================================
+
+1. How did pseudo-coding the solution beforehand help with the coding part?
+It helps me to make a step - by - step solution and organize the codes to be more readable. Without pseudocode, I wouldn't have been able to imagine how the loop ran and where the errors happened to fix them.
+Besides, pseudocode helps me to see some scenarios out of the home_assignment's requirements and where I should add more codes in.
+If I hadn't planned ahead, I wouldnt have known how things were going while I was coding and probably I would end up nowhere
+
+2. There are 3 types of iteration constructs.  What ones did you use in your program, and why? 
+I used for loop and while loop in my program. I used 'for' nested loop because I wanted to form an iteration, 'Enter the high value' and 'Enter the low value' at the same time, which are dependent on each other. The inner loop does that task and also the outer does that task again
+I used while instead of do while because if I had used 'do while', the program would have jumped into printing "Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low" even when the conditions are not met.Therefore, I would have to write more codes to avoid that mistake.
+For while, as it checks the conditions in the beginning so the codes are shorter and more readable.
+
+3. Describe how you tested your solution and what debugging method you applied to find and correct errors? 
+I spent lots of time debugging. I tested some more examples out of the assignment's requirements.
+While writing the program, I tested it often, usually after adding each piece of codes.
+When the program was finished, I tested the requirements first and then a dozen of other numbers, both positive and negative ones to make sure that it worked well in all scenarios.
+When the errors happened, I used the problem siplification method to correct them. This means I elimiminated portions of the code that werent relevant to the errors. For example, I got error in running the while loop as it ran infinitely (I initialized value==1 outside the for loop so the while loop didnt recognized it. So I made other irrelevant parts commented to run the bugs separately). Continuing this process, the code got simplier and simplier, then the bugs were easier to handle.
+
+
+ 

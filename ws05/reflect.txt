@@ -1,0 +1,13 @@
+//==============================================
+// Name:           Nguyen Thi Thuy Trang
+// Student Number: 131104192
+// Email:          tnguyen-thi-thuy@myseneca.ca
+// Section:        NLL
+// Workshop:       5 (at-home)
+//==============================================
+
+I have acquired a lot of knowledge and to be honest, it took me more hours than the other workshops. Here are what I learnt:
+- To search for a number in an array and give a warning if it isn’t found, it is necessary to make a loop to check if an array has that number, the warning should be outside the for loop. The reason is that if the warning inside the for loop and the first number in the array isn’t the desired one, it’ll give the warning and stop the searching which isn’t the right result.
+- The advantage of using array of structs is that it can group together related data items of different types and just needs one array calculation, which makes it more efficient use of memory and therefore, it runs faster and easier to implement. Parallel arrays, on the other hand, is more difficult to manage as it just groups item of a single type. In the in-home workshop, if using parallel arrays, there will be 03 arrays to hold the “ID”, “age” and “salary”. The index in the three arrays refer to the data for the same employee. When using “struct”, it only needs one struct of array emp [] which contains all three other struct variables.
+- Employee struct could have been stored in header file. The advantage of this is that with a header file, the related declarations appear in only one place. If they need to be changed, they can be changed in one place, and programs that include the header file will automatically use the new version for the next recompiled. The header file saves time for finding and changing all the copies as well as reducing the risk that a failure to find one copy will result in inconsistencies within a program.
+

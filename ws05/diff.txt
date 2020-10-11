@@ -1,0 +1,14 @@
+In line number 184 of your output:
+The output should be:
+Enter Employee Salary: 66666.66
+                             ^
+But your output is: 
+Enter Employee Salary: 66666.55
+                             ^
+
+Unmatched character details:
+The character in column 30 is supposed to be:
+  [6] ASCII code(54)
+but you printed
+  [5] ASCII code(53)
+

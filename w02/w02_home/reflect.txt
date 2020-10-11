@@ -1,0 +1,22 @@
+//==============================================
+// Name:           Nguyen Thi Thuy Trang
+// Student Number: 131104192
+// Email:          tnguyen-thi-thuy@myseneca.ca
+// Section:        NLL
+// Workshop:       2 (in-lab)
+//==============================================
+What I learnt in this workshop:
+- Using type casting to convert double to integer
+- Fixing the problem that the conversion to an integer value just performs truncation, not rounding by adding 0.005 to its value and then truncating
+- Using modulus on floating - point/ double values. C doesnt allow to use % for floating/ double values so I had to convert the operands's value to integers.
+- Reuse the variables with the same purposes
+
+What I found interesting and difficult is that 
+- x%0 is an invalid expression so I had to convert the monetary unit from dollars to cents to avoid the dividend 0.
+- when converting double to int, I needed to add 0.005 to make it round properly
+
+It is the best practice to convert floating-point values to integers when performing arithmetic operations because 
+- using integers is faster as int has 4 bytes while double has 8 bytes on 32-bit system. 
+- using integers is more precise as floating point/ double just happens to work out to the "close enough" value, such as 2.599, therefore its easier to get erros.
+  
+It is the best practice to use modulus operator rather than division and subtraction to find a remainder because there are fewer lines of code and the codes are more readable

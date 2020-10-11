@@ -1,0 +1,30 @@
+//==============================================
+// Name:           NGUYEN THI THUY TRANG
+// Student Number: 131104192
+// Email:          tnguyen-thi-thuy@myseneca.ca
+// Section:        NLL
+// Date:           
+//==============================================
+// Assignment:     1
+// Milestone:      4
+//==============================================
+
+1.	What I learnt in this workshop:
+
+-          Creating a global variable with char yNo. There are 03 functions asking yes-no questions so I declare a global variable yNo to help me to store the answer and avoid re-declaring every time I write a new function.
+
+-          Create a structure within structure (nested structure) and how to recall it in the main function.
+
+-          Passing structure pointer to function and how to declare function to accept structure pointer.
+
+-          Scanf a string pointer in a char pointer, there’s no need to use “&” to pass the address because it already points to the first element of the array.
+
+2.	The reason why I need to code a struct that hold three other structs as data members instead of going straight forward to each single struct because:
+
+-          In order to use pointers to access the members inside a nested structure (Contact structure).
+
+-          It’s a good design to group different structure members which store different information about a person together. If I want to add more information such as Date of Birth, I just need to declare another Struct DOB and initialize it in a Struct Contact
+
+-          As the struct Name, Address, Numbers are always going together so to prevent wasting time to declare 3 structs every time using, I make Contact struct to hold those 3 structs which will be clearer and effective.
+
+3.	It is a poor design to pass a pointer to type Contact as an argument in the function getName, getAddress, getNumber because Contact doesn’t have sub variables such as firstName, middleInitials, so the pointer has to go to type Contact and then Contact struct directs it to its member’s address to get the information from the sub  variables. Therefore, going directly to getName, getAddress, getNumber is more effective in terms of speed and space.

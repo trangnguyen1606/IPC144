@@ -1,0 +1,38 @@
+//==============================================
+// Name:           NGUYEN THI THUY TRANG
+// Student Number: 131104192
+// Email:          tnguyen-thi-thuy@myseneca.ca
+// Section:        NLL
+// Date:          
+//==============================================
+// Assignment:     1
+// Milestone:      2
+//==============================================
+
+
+In my opinion, it’s more efficient to create a menu and prompt the user to enter choice and add the required information to the data field. It group the same type of information together so the user find it easier to add/ edit information.
+For optional information, user can choose to add the information or press "enter" to skip to the next question
+For example:
+Contact Management System
+---------------------------------------
+1.	Display contact details
+2.	Add the required information
+a.	Name Details
+b.	Address Details
+c.	Phone Numbers
+0.	Exit
+Please select from the above options: 2a
+Add the required information
+========================
+Please enter the contact's first name: Tom
+Please enter the contact's middle initial(s), if you dont want to add this information, press enter: 
+Please enter the contact's last name: Wong Song
+
+There are some differences between C-string and primitive character array:
+- Primitive character array is a sequential collection of data type char, for example: char chr[] = {'G', 'A', 'Y', 'A', 'N'} while string is a sequence of characters represented as a single data type, for example: char *string = "Gayan"
+- String has "null character" at the end of it to indicate where the end of the string is located while primitive character doesnt have.
+- It is impossible to apply any operator on a primitive character array whereas I can apply operators on String
+
+Therefore, if I attempt to display the contents of a primitive character array (not a C string) using printf specifier “%s”, it would display an error as it’s supposed to be “%c”.
+
+

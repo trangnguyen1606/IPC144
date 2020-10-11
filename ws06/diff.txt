@@ -1,0 +1,14 @@
+In line number 40 of your output:
+The output should be:
+Structure test for Name, Address, and Numbers Done!
+                                                   ^
+But your output is: 
+Structure test for Name, Address, and Numbers Done!
+                                                   ^
+
+Unmatched character details:
+The character in column 52 is supposed to be:
+  [Newline (\n) or Carriage Retrun (\r)] ASCII code(13)
+but you printed
+  [Empty Line] ASCII code(0)
+

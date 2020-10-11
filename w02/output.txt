@@ -1,0 +1,6 @@
+Script started on Mon 20 Jan 2020 01:15:50 PM EST
+Please enter the amount to be paid: $8.68
+Loonies required: 8, balance owing $0.68
+Quarters required: 2, balance owing $0.18
+
+Script done on Mon 20 Jan 2020 01:15:52 PM EST

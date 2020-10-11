@@ -1,0 +1,14 @@
+In line number 5 of your output:
+The output should be:
+Enter the low value for day 1: -2
+                                ^
+But your output is: 
+Enter the low value for day 1: -
+                                ^
+
+Unmatched character details:
+The character in column 33 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [Newline (\n) or Carriage Retrun (\r)] ASCII code(13)
+

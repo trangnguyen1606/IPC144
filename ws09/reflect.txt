@@ -1,0 +1,23 @@
+//==============================================
+// Name:           NGUYEN THI THUY TRANG
+// Student Number: 131104192
+// Email:          tnguyen-thi-thuy@myseneca.ca
+// Section:        NLL
+// Date:           
+//==============================================
+// Assignment:     2
+// Milestone:      4
+//==============================================
+What I have learnt in this workshop:
+-	Using string library. I used strlen() to check if the numbers, which are in ‘char’ type, are valid; strcpy() to assign a string to a null value; strcmp() to check if the two numbers are matched
+-	Using flags to escape loops. getTenDigitPhone() has a big loop and two if conditions which lead to other separate conditions. I used needInput and assigned different values to escape the loop at different conditions without conflicting with each other
+-	Using ASCII table to check if a string of numbers is valid
+-	Using 2D array to write header. Although I could type the header manually but it would be inconvenient to maintain it, for example, changing the title but still keep it in the middle. Therefore, using 2D array would benefit the program more.
+-	How to utilize bubble sort
+-	How to fix the problem when two scanfs() are near each other
+Addition to what I have learnt:
+-	findcontactIndex() and getTenDigitPhone would benefit my source code regarding these two aspects:
+In terms of maintenance, they can be called many times in any other functions but define one, so my codes are reduced. Also, it helps to reduce the errors because I could edit the program in one place if something changes.
+In terms of readability, those functions are in “contactHelpers.c” module, whose purpose is to provide support for other modules with functions such as pause(), getInt(), etc. Therefore, it benefits developers when calling them and makes program easier to read.
+
+-	Yes, I would like to create a functionality to use the contact information from a text file. Because it would be easier to maintain and modify the data when they are separate with source code. Besides, supposing that data’s user isn’t a C – developer, he would be able to change the data by himself, and this would save time of both users and developers.

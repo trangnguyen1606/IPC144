@@ -1,0 +1,18 @@
+//==============================================
+// Name:           Nguyen Thi Thuy Trang
+// Student Number: 131104192
+// Email:          tnguyen-thi-thuy@myseneca.ca
+// Section:        NLL
+// Workshop:       4 (at-home)
+//==============================================
+What I have learnt through this workshop:
+-	The good thing about arrays is that it can store multiple variables of the same data type and helps me to manipulate the data, keep track of the values and process them easily and quickly. Without using arrays, I would have declared multiple new variables and assigned values to them, which would cost me lots of time and more lines of code.
+ 
+-	The good things about parallel arrays are searching and sorting.  Each index in a parallel array corresponds to the data belonging to the same entity. When knowing the index, searching and sorting becomes easy. The bad thing about parallel arrays is that if I want to insert a new value to an existing array, it’s difficult to manage the old value of the index as it will be overwritten and everything will fall out of place. In the home workshop, in the for loop, I had to initialize iterator of the array to a value of 1 so that I can use the variable [0] later without overwriting the current values.
+
+-	It’s best to initialize iterator variables to a value of zero because if starting from the highest number to zero, the length of the array should be fixed, if starting at any number but zero, you will have some empty spaces in the memory and if you don’t use all of them, it’ll be a waste of memory.
+
+-	I cannot assign a scanf statement directly to a variable in C because the values scanned are returned via arguments so I should assign a printf statement instead.
+
+-	Finally, I learn how to access an array element by using ‘for’ loop. The value between the brackets indicates the index of the element to access.
+	
